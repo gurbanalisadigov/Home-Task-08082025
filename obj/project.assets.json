@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Home Task 08082025\\Home Task 08082025.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Home Task 08082025\\Home-Task-08082025\\Home Task 08082025.csproj",
       "projectName": "Home Task 08082025",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Home Task 08082025\\Home Task 08082025.csproj",
+      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Home Task 08082025\\Home-Task-08082025\\Home Task 08082025.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Home Task 08082025\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Home Task 08082025\\Home-Task-08082025\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

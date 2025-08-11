@@ -8,8 +8,8 @@ namespace Home_Task_08082025.Models.Task_2_Polymorphism
 {
     internal class Person
     {
-        public string _name;
-        public string _surname;
+        private string _name;
+        private string _surname;
 
         public string Name
         {
@@ -54,7 +54,7 @@ namespace Home_Task_08082025.Models.Task_2_Polymorphism
         public override string ToString()
         {
 
-            return _name + " " + _surname;
+            return Name + " " + Surname;
         }
     }
 }

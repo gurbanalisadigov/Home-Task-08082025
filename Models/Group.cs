@@ -67,15 +67,20 @@ namespace Home_Task_08082025.Models
                 j++;
             }
 
+            Students = newStudent;
+
         }
         public bool StudentExists(string name)
         {
             for (int i = 0; i < Students.Length; i++)
             {
                 if (Students[i].Name == name)
-
+                {
                     Console.WriteLine("Bu adda telebe movcuddur");
-                return true;
+                    return true;
+                }
+
+                  
             }
             return false;
 

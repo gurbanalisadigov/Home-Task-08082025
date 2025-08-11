@@ -1,0 +1,5 @@
+C:\Users\ASUS\OneDrive\Desktop\Home Task 08082025\Home-Task-08082025\obj\Debug\net8.0\Home Task 08082025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\Home Task 08082025\Home-Task-08082025\obj\Debug\net8.0\Home Task 08082025.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\Home Task 08082025\Home-Task-08082025\obj\Debug\net8.0\Home Task 08082025.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\Home Task 08082025\Home-Task-08082025\obj\Debug\net8.0\Home Task 08082025.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\Home Task 08082025\Home-Task-08082025\obj\Debug\net8.0\Home Task 08082025.sourcelink.json

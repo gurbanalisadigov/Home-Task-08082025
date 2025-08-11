@@ -26,8 +26,7 @@ namespace Home_Task_08082025.Models.Task_2_Polymorphism
         public Manager(string name, string surname, string company, decimal salaryperhour, double hours, int experience, decimal bonus)
             : base(name, surname, company, salaryperhour, hours, experience)
         {
-            _name = name;
-            _surname = surname;
+           
             _bonus = bonus;
 
 

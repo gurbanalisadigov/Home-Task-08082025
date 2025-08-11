@@ -22,9 +22,13 @@ namespace Home_Task_08082025.Models.Task_2_Polymorphism
             }
             set
             {
-                _company = value;
+                if (value.Length > 0)
+                {
+                    _company = value;
+                }
+                return;
             }
-        }
+        }    
         public decimal SalaryPerHour
         {
             get
@@ -34,8 +38,11 @@ namespace Home_Task_08082025.Models.Task_2_Polymorphism
             }
             set
             {
-                _salaryperhour = value;
-
+                if (_salaryperhour > 0)
+                {
+                    _salaryperhour = value;
+                }
+                return;
             }
         }
         public double Hours
@@ -46,8 +53,14 @@ namespace Home_Task_08082025.Models.Task_2_Polymorphism
             }
             set
             {
-                _hours = value;
+                if (_hours > 0)
+                {
+                    _hours = value;
+                }
+
+                return;
             }
+            
         }
         public int Experience
         {
@@ -57,13 +70,17 @@ namespace Home_Task_08082025.Models.Task_2_Polymorphism
             }
             set
             {
-                _experience = value;
+                if (_experience > 0)
+                {
+                    _experience = value;
+                    return;
+                }
+               
             }
         }
         public Employee(string name, string surname, string company, decimal salaryperhour, double hours, int experience):base(name, surname)
         {
-              _name= name;
-            _surname= surname;            
+                         
             _company = company;
             _salaryperhour = salaryperhour;
             _hours = hours;
@@ -73,9 +90,9 @@ namespace Home_Task_08082025.Models.Task_2_Polymorphism
         {
             double salary = (double)_salaryperhour * _hours;
             return salary;
-           
 
-        
 
+
+        }
     }
 }
